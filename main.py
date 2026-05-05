@@ -1,5 +1,4 @@
-main.py
-data_fetch.py
-llm_analysis.py
-requirements.txt
-.github/workflows/daily.yml
+from data_fetch import build_dataset
+
+data = build_dataset()
+print(data)
